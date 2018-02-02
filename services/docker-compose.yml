@@ -1,0 +1,14 @@
+version: "2"
+services:
+    db:
+        image: mongo:3.6.0
+        ports:
+            - 27017:27017
+    api:
+        build: .
+        ports:
+            - "127.0.0.1:5000:5000"
+        volumes:
+            - .:/api
+        links:
+            - db

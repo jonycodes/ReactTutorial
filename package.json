@@ -1,0 +1,25 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "React-ToDo",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonycodes/React-ToDo.git"
+  },
+  "author": "Joannier Pinales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonycodes/React-ToDo/issues"
+  },
+  "homepage": "https://github.com/jonycodes/React-ToDo#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react-bootstrap": "^0.32.1",
+    "react-scripts": "^1.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "todo_server",
+  "version": "1.0.0",
+  "description": "workshop",
+  "main": "server.js",
+  "scripts": {
+    "test": "run test",
+    "start": "node server.js"
+  },
+  "author": "Joannier Pinales",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3"
+  }
+}
